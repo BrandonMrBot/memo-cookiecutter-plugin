@@ -1,0 +1,19 @@
+{% extends 'private/page.jinja2' %}
+
+{% block title %}
+    <title>{{ _('MeMo - My private page') }}</title>
+{% endblock title %}
+
+{% block breadcrums %}
+    {% set _title = _('My private page') %}
+    {% include 'private/snippets/breadcrums.jinja2' %}
+{% endblock breadcrums %}
+
+{% block main_container %}
+    <div class="card">
+        <div class="card-body">
+            {{ _('The body goes here') }}<br/>
+            {{ message }}
+        </div>
+    </div>
+{% endblock main_container %}

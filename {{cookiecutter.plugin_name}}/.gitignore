@@ -1,0 +1,19 @@
+# Alembic config contains the database credentials
+alembic.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Compiled translations (run compile_catalog after deployment)
+*.mo
+
+# Environments and IDEs
+.venv/
+venv/
+.idea/
+.vscode/
